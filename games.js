@@ -80,7 +80,7 @@ let ball;
 let ballArray = [];
 function init() {
   ballArray = [];
-  for (let i = 0; i < 300; i++) {
+  for (let i = 0; i < 500; i++) {
     let radius = randomIntFromRange(10, 30);
     let x = randomIntFromRange(radius, canvas.width - radius);
     let y = randomIntFromRange(0, canvas.height - radius);
